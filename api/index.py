@@ -15,5 +15,4 @@ def get_marks():
     marks = [data.get(name, None) for name in names]
     return jsonify({"marks": marks})
 
-if __name__ == '__main__':
-    app.run()
+app = app
